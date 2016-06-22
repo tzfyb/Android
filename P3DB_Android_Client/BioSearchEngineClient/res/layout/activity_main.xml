@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_page_background2"
+    android:gravity="center"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.biosearchengineclient.MainActivity" 
+    android:clickable="true" 
+    android:focusableInTouchMode="true" >
+
+    <EditText
+        android:id="@+id/searchInput"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="150dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:background="#DCDCDC"
+        android:ems="50"
+        android:hint="@string/SearchHint"
+        android:textSize="20sp" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/searchButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/searchInput"
+        android:layout_alignTop="@+id/searchInput"
+        android:layout_marginRight="200dp"
+        android:layout_marginTop="77dp"
+        android:textSize = "20sp"
+        android:text="Search" />
+
+    <CheckBox
+        android:id="@+id/pubmedCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/searchInput"
+        android:layout_alignTop="@+id/searchInput"
+        android:layout_marginTop="39dp"
+        android:text="Pubmed" />
+
+    <CheckBox
+        android:id="@+id/ieeeCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_alignTop="@+id/searchInput"
+		android:layout_alignLeft="@+id/searchInput"
+		android:layout_marginTop="39dp"
+		android:layout_marginLeft="100dp"
+        android:text="IEEE" />
+
+    <CheckBox
+        android:id="@+id/newsCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/searchInput"
+		android:layout_alignLeft="@+id/searchInput"
+		android:layout_marginTop="39dp"
+		android:layout_marginLeft="200dp"
+        android:layout_below="@+id/checkBox2"
+        android:text="News" />
+
+    <CheckBox
+        android:id="@+id/googlescholarCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/searchInput"
+		android:layout_alignLeft="@+id/searchInput"
+		android:layout_marginTop="39dp"
+		android:layout_marginLeft="300dp"
+        android:text="Google Scholar" />
+
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainpage_titlebar"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="#3D9140"
+    android:gravity="right"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/tv_mainpage_titlebar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="P3DB Tools"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+
+    
+    <Button
+        android:id="@+id/update"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/ic_menu_notifications" />
+<!-- com.example.gridtest.SAutoBg -->
+</LinearLayout>

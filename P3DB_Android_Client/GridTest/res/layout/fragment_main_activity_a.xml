@@ -1,0 +1,102 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="178dp"
+        android:layout_weight="0.12" >
+
+        <TextView
+            android:id="@+id/textDisplay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/display"
+            android:gravity="clip_vertical"
+            android:text="This is the display!"
+            android:textSize="@dimen/abc_dropdownitem_icon_width" >
+        </TextView>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="222dp"
+        android:layout_weight="0.11" >
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TableRow
+                android:id="@+id/mainRow1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <Button
+                    android:id="@+id/signin"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/signin_effect" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/mainRow2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <Button
+                    android:id="@+id/dna_icon"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="1.5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/dnaitem" />
+
+                <Button
+                    android:id="@+id/main_search"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1.5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/search_effect" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/mainRow3"
+                android:layout_height="0dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom = "3dp"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <Button
+                    android:id="@+id/question"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="1.5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/question_effect" />
+
+                <Button
+                    android:id="@+id/tools"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1.5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/tools" />
+            </TableRow>
+        </TableLayout>
+    </FrameLayout>
+
+</LinearLayout>

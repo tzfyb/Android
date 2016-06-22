@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">GridTest</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="animal_name">
+        <item>cat</item>
+        <item>dog</item>
+        <item>duck</item>
+        <item>panda</item>
+        <item>sheep</item>
+    </string-array>
+
+    <string name="title_activity_my_dialog">MainActivity</string>
+    <string name="title_template_step">Step <xliff:g id="step_number">%1$d</xliff:g>: LoremIpsum</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Titles -->
+    <string name="title_crossfade">Simple Crossfade</string>
+    <string name="title_card_flip">Card Flip</string>
+    <string name="title_screen_slide">Screen Slide</string>
+    <string name="title_zoom">Zoom</string>
+    <string name="title_layout_changes">Layout Changes</string>
+
+    <!-- Actions -->
+    <string name="action_toggle">Toggle indicator</string>
+    <string name="action_add_item">Add item</string>
+    <string name="action_remove_item">Remove item</string>
+    <string name="action_previous">Previous</string>
+    <string name="action_next">Next</string>
+    <string name="action_finish">Finish</string>
+    <string name="action_info">Photo info</string>
+    <string name="action_photo">View photo</string>
+
+    <!-- Messages -->
+    <string name="message_empty_layout_changes">Add an item above to get started.</string>
+    <string name="message_zoom_touch_expand">Touch a photo to expand it.</string>
+
+    <!-- Accessibility-only descriptions -->
+    <string name="description_image_1">Image 1</string>
+    <string name="description_image_2">Image 2</string>
+    <string name="description_zoom_touch_close">Expanded image (touch to close)</string>
+
+    <!-- Other strings -->
+    <string name="card_back_title">Golgi</string>
+    <string name="card_back_description">The Golgi apparatus (/ˈɡoʊldʒiː/), also known as the Golgi complex, Golgi body, or simply the Golgi, is an organelle found in most eukaryotic cells.[1] It was identified in 1897 by the Italian physician Camillo Golgi and named after him in 1898.[2]
+Part of the cellular endomembrane system, the Golgi apparatus packages proteins inside the cell before they are sent to their destination; it is particularly important in the processing of proteins for secretion.</string>
+
+    <!-- for navigation drawer -->
+    <string-array name="options">
+        <item>Facebook</item>
+        <item>Twitter</item>
+        <item>YouTube</item>
+        <item>Wechat</item>
+    </string-array>
+
+    <string name="drawer_open">drawer opened</string>
+    <string name="drawer_close">drawer closed</string>
+    <string name="title_activity_drag_and_drop">DragAndDrop</string>
+    <string name="monsterhunter">Monster Hunter</string>
+    <string name="dota2">Dota2</string>
+    <string name="lol">League of Legand</string>
+    <string name="deepspacemine">Deep Space Mine</string>
+    <string name="game">Game</string>
+
+</resources>

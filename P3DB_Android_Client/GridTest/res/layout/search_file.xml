@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bio"
+    android:orientation="vertical"
+    android:padding="30dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/searchFileAddFolder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Folder" />
+
+        <Button
+            android:id="@+id/searchFileDeleteFolder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete Folder" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/searchFileTitleInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/searchFileContentInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/searchFileAddFile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Add File" />
+
+    <EditText
+        android:id="@+id/searchFileSearchInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/searchFileContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="File Content"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/searchFileSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Find File"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/searchDeleteFile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="Delete File"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/searchShowFilesButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Show Files" />
+
+    <TextView
+        android:id="@+id/searchShowFilesList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text=""
+        android:textSize="35sp" />
+
+</LinearLayout>
